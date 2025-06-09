@@ -27,18 +27,39 @@
             "category" : 1
         },
         {
-            "id"  : 2,
+            "id"  : 4,
             "name" :"Android",
             "category" : 2
         },
         {
-            "id"  : 3,
-            "name" :"Apple",
+            "id"  : 5,
+            "name" :"IOS",
             "category" : 2
         }
     ],
 
-    
+    "brands" : [
+        {
+            "id"  : 1,
+            "name" :"Apple",
+            "category" : 2,
+            "subcategory" : 5
+        },
+        {
+            "id"  : 2,
+            "name" :"Samsung",
+            "category" : 2,
+            "subcategory" : 4
+        },
+        {
+            "id"  : 3,
+            "name" :"Google",
+            "category" : 2,
+            "subcategory" : 4
+        }
+    ],
+
+
     "products" : [
         {
             "id" : 1,
