@@ -1,9 +1,24 @@
+import { products } from "../data/data";
+import Card from "../reusable-component/Card";
+
 const Home = () => {
     return (
-        <div className=" container my-5 bg-success" style={{ "height" : "100vh" }}>
-            <h3>Home Page</h3>
+        <div className=" container my-5 p-0" style={{ "height" : "100vh" }}>
+            <div className="row p-0 m-0">
+                {
+                   products.map((value,index) => {
+                    return (
+                        <div key={index} className="col-lg-3 col-md-4  col-12 mb-5">
+                          <Card data={value}/>
+                       </div>
+                    )
+                   }) 
+                }
+                
+            </div>
         </div>
     );
 }
 
 export default Home;
+

@@ -1,0 +1,57 @@
+{
+    "categories" : [
+        {
+            "id"  : 1,
+            "name" :"Accessories"
+        },
+        {
+            "id"  : 2,
+            "name" :"Phone"
+        }
+
+    ],
+    "subcategories" : [
+        {
+            "id"  : 1,
+            "name" :"Headphones",
+            "category" : 1
+        },
+        {
+            "id"  : 2,
+            "name" :"Earphones",
+            "category" : 1
+        },
+        {
+            "id"  : 3,
+            "name" :"Chargers",
+            "category" : 1
+        },
+        {
+            "id"  : 2,
+            "name" :"Android",
+            "category" : 2
+        },
+        {
+            "id"  : 3,
+            "name" :"Apple",
+            "category" : 2
+        }
+    ],
+
+    
+    "products" : [
+        {
+            "id" : 1,
+            "name" : "Wireless Headphones",
+            "discription" : "High-quality over-ear Bluetooth headphones with noise cancellation.",
+            "price" : 189.99,
+            "qty" : 25
+        }
+    ],
+
+
+    "carts"   : [
+
+    ]
+    
+}
