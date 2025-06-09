@@ -1,9 +1,13 @@
 import { products } from "../data/data";
 import Card from "../reusable-component/Card";
+import Category from "../reusable-component/Category";
 
 const Home = () => {
     return (
         <div className=" container my-5 p-0" style={{ "height" : "100vh" }}>
+
+            <Category data={[1,2]}/>
+
             <div className="row p-0 m-0">
                 {
                    products.map((value,index) => {
@@ -16,6 +20,7 @@ const Home = () => {
                 }
                 
             </div>
+
         </div>
     );
 }
