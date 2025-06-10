@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router";
-import Contact from "./components/pages/Contact";
-import Home from "./components/pages/Home";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
 import Master from "./layout/Master";
 
 const App = () => {
