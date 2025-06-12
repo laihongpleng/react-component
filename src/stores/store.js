@@ -4,9 +4,11 @@
 
 import { configureStore } from "@reduxjs/toolkit";
 
+import homeStore from "./homeStore.js";
+
 export const store = configureStore({
     reducer : {
-
+        homeData : homeStore.reducer,
     }
 })
 
