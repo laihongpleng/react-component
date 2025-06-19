@@ -5,7 +5,6 @@ import { fetchCategories, fetchProducts } from "../services/homeService";
 export const getCategoryAction = createAsyncThunk('home/getCategory', async () => {
     const data = await fetchCategories();
     return data;
-
 });
 
 
@@ -32,7 +31,7 @@ const homeStore = createSlice({
     extraReducers : (builder) => {
         builder
             .addCase(getCategoryAction.fulfilled,(state, action) => {
-               state.categories = action.payload;
+               state.categories = action.payload;  //Getting data from service response
             })
             .addCase(getProductAction.fulfilled,(state, action) => {
                 state.products = action.payload;

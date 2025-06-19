@@ -6,9 +6,9 @@ import { configureStore } from "@reduxjs/toolkit";
 
 import homeStore from "./homeStore.js";
 
-export const store = configureStore({
+export const storeData = configureStore({
     reducer : {
-        homeData : homeStore.reducer,
+        sdfsdasdfas : homeStore.reducer,
     }
 })
 
