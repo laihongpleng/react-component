@@ -1,19 +1,7 @@
-import { api } from "../services";
+import { createSlice } from "@reduxjs/toolkit";
 
-export const getCartService = async () => { 
-    try{
-        const response = await api.get('/carts');
-        return response.data;
-    }catch(e){
-        console.error(e)
-    }
-}
+const cartStore = createSlice({
 
-export const addToCartService = async (data) => {
-    try{
-        const response = await api.post('/carts', data);
-        return response.data;
-    }catch(e){
-        console.error(e)
-    }
-}
+})
+
+export default cartStore;
