@@ -32,14 +32,15 @@ const Home = () => {
 
     return (
         <>
-        <Slider/>
-        <div className=" container my-5 p-0" style={{ "height" : "100vh" }}>
+            <Slider/>
+            
+            <div className=" container my-5 p-0" style={{ "height" : "100vh" }}>
 
-            <Category data={categories}/>    
+                <Category data={categories}/>    
 
-            <ProductList data={products} />
+                <ProductList data={products} />
 
-        </div>
+            </div>
 
         </>
     );
